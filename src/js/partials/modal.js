@@ -8,6 +8,7 @@ export function onCloseModalWnd() {
   refs.modalWnd.classList.remove('is-open');
   changeImage(null, null);
 }
+
 // extra functional
 export function onLigthboxOverlayClick(e) {
   if (e.target !== e.currentTarget) return;
