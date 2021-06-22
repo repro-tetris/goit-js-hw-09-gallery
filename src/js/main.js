@@ -1,7 +1,4 @@
-import './sass/main.scss';
-
-import * as gallery from './js/gallery-items';
-
+import * as gallery from './gallery-items.js';
 // кількість зображень в галереї
 const cntImages = gallery.default.length;
 // поточна позиція у галереї
